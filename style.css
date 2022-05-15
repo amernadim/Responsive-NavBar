@@ -1,0 +1,65 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: 'Lato', sans-serif;
+  }
+
+  nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(9, 138, 110, 0.851);
+    overflow: hidden;
+  }
+
+  .logo{
+    width: 40%;
+    margin-left: 8%;
+   
+  }
+  .menu{
+      margin-right: 5%;
+  }
+
+  .logo img{
+      height: 75px;
+      width: 100px;
+      margin: auto;
+  }
+     
+  ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  ul li{
+    list-style: none;
+    line-height: 80px;
+  }
+
+  ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0 32px;
+  }
+
+  ul li a:hover{
+    line-height: 80px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+  }
+
+  .toggle{
+    display: none;
+  }
+
+  #checkbox{
+    display: none;
+  }
